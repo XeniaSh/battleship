@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="BattleShip" verbose="1" parallel="none">
+   <test name="Functional Tests" preserve-order="true">
+       <classes>
+ 			<class name="battleship.tests.BattleTest" />
+        </classes>
+	</test>
+</suite>
